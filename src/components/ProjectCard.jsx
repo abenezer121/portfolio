@@ -16,8 +16,8 @@ const ProjectCard = ({ image, title, description, skills, links, images }) => {
       {/* Content Section */}
       <div className="p-6 flex flex-col justify-between md:w-1/2">
         <div>
-          <h3 className="text-2xl font-semibold text-gray-800 mb-4">{title}</h3>
-          <p className="text-gray-600 mb-4 leading-relaxed">{description}</p>
+          <h3 className="font-fixedsys  text-4xl font-semibold text-gray-800 mb-4">{title}</h3>
+          <p className="font-mono text-gray-600 mb-4 leading-relaxed">{description}</p>
           <div className="flex flex-wrap mb-4">
             {skills.map((skill, index) => (
               <span key={index} className="px-3 py-1 text-sm bg-gray-100 text-gray-800 rounded-full mr-2 mb-2">

@@ -3,9 +3,9 @@ import ProjectCard from './ProjectCard';
 
 const Projects = ({ projects }) => {
   return (
-    <div id="projects" className="font-sans px-4 mt-[20vh]">
-      <div className="text-center mb-10">
-        <p className="text-black text-4xl font-semibold">Projects</p>
+    <div id="projects" className=" px-4 mt-[15vh]">
+      <div className="text-center  mb-[10vh]">
+        <p className="font-fixedsys text-6xl text-black text-4xl font-semibold">Projects</p>
       </div>
 
       {/* Updated Grid Container */}

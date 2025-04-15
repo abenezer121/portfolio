@@ -6,6 +6,11 @@ export default {
   ],
   theme: {
     extend: {
+     
+      fontFamily: {
+        mono: ['"JetBrains Mono"', 'monospace'],
+        fixedsys: ['"Fixedsys Excelsior"', 'monospace'],
+      },
       animation: {
         caret: 'caret 1s steps(1) infinite',
       },

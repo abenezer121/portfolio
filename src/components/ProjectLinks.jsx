@@ -29,7 +29,7 @@ const ProjectLinks = ({ links: { github, preview, images } }) => {
           href={preview}
           target="_blank"
           rel="noopener noreferrer"
-          className="mr-4 mt-2 inline-block px-4 py-2 bg-purple-600 text-white rounded shadow-md hover:bg-purple-500 hover:-translate-y-1 transition-all font-semibold text-sm"
+          className="mr-4 mt-2 inline-block px-4 py-2   border border-[#ff6c00] rounded shadow-md hover:text-[#ff6c00] hover:-translate-y-1 transition-all hover:font-semibold  text-sm"
         >
           Live Demo
         </a>
@@ -39,14 +39,14 @@ const ProjectLinks = ({ links: { github, preview, images } }) => {
         href={github}
         target="_blank"
         rel="noopener noreferrer"
-        className="mt-2 inline-block px-4 py-2 bg-white text-purple-600 border border-purple-600 rounded shadow-md hover:-translate-y-1 transition-all font-semibold text-sm"
+        className="mt-2 inline-block px-4 py-2 bg-white hover:text-[#ff6c00] border border-[#ff6c00] rounded shadow-md hover:-translate-y-1 transition-all hover:font-semibold  text-sm"
       >
         View Source
       </a>
 
       <button
         onClick={openModal}
-        className="mt-2 ml-4 inline-block px-4 py-2 bg-gray-200 text-gray-700 border border-gray-300 rounded shadow-md hover:bg-gray-300 hover:-translate-y-1 transition-all font-semibold text-sm"
+        className=" border border-[#ff6c00] rounded mt-2 ml-4 inline-block px-4 py-2  hover:text-[#ff6c00]   rounded shadow-md  hover:-translate-y-1 transition-all hover:font-semibold text-sm"
       >
         View More
       </button>
