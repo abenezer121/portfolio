@@ -35,6 +35,24 @@ import gudina9 from "../assets/images/gudina/9.png"
 import shazum from "../assets/images/shazum/1.png"
 import sra1 from "../assets/images/satellite-analyzer/1.png"
 import sra2 from "../assets/images/satellite-analyzer/2.jpeg"
+
+
+
+import po1 from "../assets/images/postoffice/1.jpg"
+import po2 from "../assets/images/postoffice/2.jpg"
+import po3 from "../assets/images/postoffice/3.jpg"
+import po4 from "../assets/images/postoffice/4.jpg"
+import po5 from "../assets/images/postoffice/5.jpg"
+import po6 from "../assets/images/postoffice/6.jpg"
+import po7 from "../assets/images/postoffice/7.jpg"
+import po8 from "../assets/images/postoffice/8.jpg"
+import po9 from "../assets/images/postoffice/9.jpg"
+import po10 from "../assets/images/postoffice/10.jpg"
+import po11 from "../assets/images/postoffice/11.jpg"
+
+
+
+
 const getProjectData = () => {
     return [
       {
@@ -132,6 +150,20 @@ const getProjectData = () => {
         image: sra2,
         images: [
             
+            
+          ],
+      },
+      {
+        title: 'Ethiopost',
+        description: 'A digital postal service that provides citizens with unique virtual postbox addresses linked to their physical locations. Ethiopost modernizes mail and package delivery by enabling secure, location-based digital addressing for homes and businesses across Ethiopia.',
+        skills: ['Golang', 'Python'],
+        links: {
+        
+          preview: '',
+        },
+        image: po2,
+        images: [
+          po1 ,po3,po4,po5,po5,po6,po7,po8,po9,po10,po11          
             
           ],
       }

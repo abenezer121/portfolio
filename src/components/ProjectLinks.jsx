@@ -29,7 +29,7 @@ const ProjectLinks = ({ links: { github, preview, images } }) => {
           href={preview}
           target="_blank"
           rel="noopener noreferrer"
-          className="mr-4 mt-2 inline-block px-4 py-2   border border-[#ff6c00] rounded shadow-md hover:text-[#ff6c00] hover:-translate-y-1 transition-all hover:font-semibold  text-sm"
+          className="mr-4 mt-2 inline-block px-4 py-2   border border-[#ff6c00] rounded shadow-md hover:text-[#ff6c00] hover:-translate-y-1 transition-all hover:font-mono  text-sm"
         >
           Live Demo
         </a>
@@ -39,14 +39,14 @@ const ProjectLinks = ({ links: { github, preview, images } }) => {
         href={github}
         target="_blank"
         rel="noopener noreferrer"
-        className="mt-2 inline-block px-4 py-2 bg-white hover:text-[#ff6c00] border border-[#ff6c00] rounded shadow-md hover:-translate-y-1 transition-all hover:font-semibold  text-sm"
+        className="mt-2 inline-block px-4 py-2 bg-white hover:text-[#ff6c00] border border-[#ff6c00] rounded shadow-md hover:-translate-y-1 transition-all hover:font-mono  text-sm"
       >
         View Source
       </a>
 
       <button
         onClick={openModal}
-        className=" border border-[#ff6c00] rounded mt-2 ml-4 inline-block px-4 py-2  hover:text-[#ff6c00]   rounded shadow-md  hover:-translate-y-1 transition-all hover:font-semibold text-sm"
+        className=" border border-[#ff6c00] rounded mt-2 ml-4 inline-block px-4 py-2  hover:text-[#ff6c00]   rounded shadow-md  hover:-translate-y-1 transition-all hover:font-mono text-sm"
       >
         View More
       </button>
@@ -61,9 +61,9 @@ const ProjectLinks = ({ links: { github, preview, images } }) => {
               &times;
             </button>
 
-            <h3 className="text-xl font-semibold mb-4">Additional Images</h3>
+            <h3 className="text-xl font-mono mb-4">Additional Images</h3>
 
-            {/* Grid of Thumbnails */}
+         
             <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
               {images.map((image, index) => (
                 <img
@@ -76,7 +76,7 @@ const ProjectLinks = ({ links: { github, preview, images } }) => {
               ))}
             </div>
 
-            {/* Big Preview Overlay */}
+         
             {selectedImage && (
               <div
                 className="fixed inset-0 z-30 flex items-center justify-center bg-black bg-opacity-70"
@@ -105,3 +105,7 @@ const ProjectLinks = ({ links: { github, preview, images } }) => {
 };
 
 export default ProjectLinks;
+
+
+
+
